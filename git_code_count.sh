@@ -10,7 +10,7 @@ git_code_count() {
     | awk '{add+=$1; del+=$2} END {print "Added lines:", add, "\n" "Deleted lines:", del}'
 }
 
-user_email="cheliangzhao@wps.cn"
+user_email=$1
 code_path="C:\Users\wps\Scripts\moffice"
 
 
