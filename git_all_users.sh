@@ -1,3 +1,4 @@
+# !/bin/bash
 code_path="C:\Users\wps\Scripts\moffice"
 
 cd $code_path

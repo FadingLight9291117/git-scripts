@@ -1,4 +1,4 @@
-
+# !/bin/bash
 git_code_count() {
     user_email=$1
     repository_path=$2
