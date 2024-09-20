@@ -5,11 +5,11 @@ git_code_count() {
     
     cd $repository_path
     # 统计某个用户的代码量
-    echo user: $user_email
+    echo User: $user_email
     git log --author=$user_email --pretty=tformat: --numstat \
     | awk '{add+=$1; del+=$2} END {print "Added lines:", add, "\n" "Deleted lines:", del}'
-
 }
+
 user_email="cheliangzhao@wps.cn"
 code_path="C:\Users\wps\Scripts\moffice"
 
